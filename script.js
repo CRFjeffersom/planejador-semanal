@@ -3,7 +3,7 @@ function AdcionarDomingo(){
    const para = document.createElement('p')
    para.innerHTML = (tarefa)
    document.getElementById("TarefaDomingo").appendChild(para)
-   localStorage.setItem(tarefa);
+   
    
 }
 
